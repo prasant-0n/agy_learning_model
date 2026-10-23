@@ -1,0 +1,15 @@
+{
+  "name": "sample-order-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Enterprise Order Management Service with strict layered architecture",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "zod": "^3.23.8"
+  }
+}

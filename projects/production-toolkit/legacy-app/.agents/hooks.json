@@ -1,0 +1,17 @@
+{
+  "production-safety-gate": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|read_file|edit_file|write_file",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/pre-tool-safety.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

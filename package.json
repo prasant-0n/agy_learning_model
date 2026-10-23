@@ -1,0 +1,17 @@
+{
+  "name": "agy_learning_model",
+  "version": "1.0.0",
+  "description": "Welcome to your hands-on mastery environment for Google Antigravity. This repository contains the modules, practical labs, and real-world Node.js full-stack projects designed to transform you into an elite AI-assisted engineer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test labs/04-spec-driven-refactoring/hardened-service/test/order.test.mjs labs/05-debugging-tdd-code-review/test/batch-inventory.test.mjs labs/06-multi-agent-parallelism/test/notification-integration.test.mjs projects/capstone-webhook-engine/test/webhook-engine.test.mjs && node labs/02-rules-skills-and-hooks/test-hook.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "safety-gate": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/pre-tool-safety.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
